@@ -1,4 +1,5 @@
 import './scss/common.scss';
+import About from './sections/about';
 import Banner from './sections/banner';
 import Footer from './sections/footer';
 import Hobbies from './sections/hobbies';
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
+      <About />
       <Stack />
       <Projects />
       <Hobbies />

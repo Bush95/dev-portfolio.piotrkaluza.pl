@@ -1,0 +1,74 @@
+$grid-breakpoints: (
+	xs: 0,
+	sm: 480px,
+	md: 768px,
+	lg: 960px,
+	xl: 1200px
+);
+
+/* BREAKPOINTS */
+@mixin tabletonly {
+	@media (min-width: map-get($grid-breakpoints, md)) and (max-width: map-get($grid-breakpoints, lg) - 1) {
+		@content;
+	}
+}
+
+@mixin lt-bp-xs {
+	@media (max-width: (map-get($grid-breakpoints, xs) - 1)) {
+		@content;
+	}
+}
+
+@mixin bp-xs {
+	@media (min-width: map-get($grid-breakpoints, xs)) {
+		@content;
+	}
+}
+
+@mixin lt-bp-sm {
+	@media (max-width: (map-get($grid-breakpoints, sm) - 1)) {
+		@content;
+	}
+}
+
+@mixin bp-sm {
+	@media (min-width: map-get($grid-breakpoints, sm)) {
+		@content;
+	}
+}
+
+@mixin lt-bp-md {
+	@media (max-width: (map-get($grid-breakpoints, md) - 1)) {
+		@content;
+	}
+}
+
+@mixin bp-md {
+	@media (min-width: map-get($grid-breakpoints, md)) {
+		@content;
+	}
+}
+
+@mixin lt-bp-lg {
+	@media (max-width: (map-get($grid-breakpoints, lg) - 1)) {
+		@content;
+	}
+}
+
+@mixin bp-lg {
+	@media (min-width: map-get($grid-breakpoints, lg)) {
+		@content;
+	}
+}
+
+@mixin lt-bp-xl {
+	@media (max-width: (map-get($grid-breakpoints, xl) - 1)) {
+		@content;
+	}
+}
+
+@mixin bp-xl {
+	@media (min-width: map-get($grid-breakpoints, xl)) {
+		@content;
+	}
+}

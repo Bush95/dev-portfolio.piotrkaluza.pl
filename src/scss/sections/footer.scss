@@ -1,0 +1,19 @@
+@import "../breakpoints.scss";
+
+.page-footer {
+    padding: 15px 0;
+    position: relative;
+    z-index: 1;
+    background-color: #21252c;
+    color: #FFF;
+    text-align: center;
+
+    &__copy {
+        opacity: 0.6;
+        font-size: 0.7rem;
+
+        @include bp-lg {
+            font-size: 0.9rem;
+        }
+    }
+}

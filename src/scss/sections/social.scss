@@ -1,0 +1,19 @@
+.social {
+    padding: 30px;
+    margin: 0;
+    display: block;
+    list-style: none;
+
+    li {
+        display: inline-block;
+        margin: 0 0.5rem;
+
+        .social-icon {
+            transition: opacity 120ms;
+
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+    }
+}

@@ -4,8 +4,12 @@
 .banner {
     position: relative;
     background-color: #1a1a1a;
-    min-height: 120vh;
+    min-height: 108vh;
     overflow: hidden;
+
+    @include bp-lg {
+        min-height: 120vh;
+    }
 
     &__particles {
         position: absolute;
@@ -29,7 +33,7 @@
     &__content {
         position: absolute;
         top: 50%;
-        top: calc(50% - 10vh);
+        top: calc(50% - 4vh);
         left: 50%;
         transform: translate(-50%, -50%);
         color: #FFF;
@@ -39,6 +43,7 @@
         width: calc(100% - 50px);
 
         @include bp-lg {
+            top: calc(50% - 10vh);
             font-size: 3rem;
         }
 
@@ -103,9 +108,13 @@
         bottom: -2px; //1px line fix
         left: 0;
         width: 100%;
-        height: 20vh;
+        height: 8vh;
         background-color: #FFF;
         z-index: 3;
         clip-path: polygon(0% 0%, 50% 95%, 100% 0%, 100% 100%, 0% 100%);
+
+        @include bp-lg {
+            height: 20vh;
+        }
     }
 }

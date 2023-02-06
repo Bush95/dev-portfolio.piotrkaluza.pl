@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    background-color: $featured-color;
+    min-width: 120px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}

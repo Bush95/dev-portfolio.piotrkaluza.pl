@@ -1,3 +1,63 @@
+@import "../breakpoints.scss";
+$contactBg: #314e58;
+
 .contact {
-    height: 300px;
+    position: relative;
+    z-index: 2;
+    background-color: $contactBg;
+    margin: 0 auto;
+    transform: translateY(-100px);
+    margin-bottom: -30px;
+    padding: 10px 0;
+    color: #FFF;
+    width: min(500px, calc(100% - 50px));
+
+    @include bp-lg {
+        width: min(500px, calc(100% - 80px));
+    }
+
+    &::before,
+    &::after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background-color: $contactBg;
+        height: 12px;
+
+        @include bp-lg {
+            height: 30px;
+        }
+    }
+
+    &::before {
+        bottom: 100%;
+        margin-bottom: -1px;
+        clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+        clip-path: polygon(-1% 100%, 101% 0%, 101% 100%); // Odd edge rendering fix
+    }
+
+    &::after {
+        top: 100%;
+        margin-top: -1px;
+        clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+        clip-path: polygon(-1% 0%, 101% 0%, -1% 100%); // Odd edge rendering fix
+    }
+
+    h2 {
+        position: relative;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        
+        &::after {
+            display: block;
+            content: '';
+            width: 15px;
+            margin: 0 auto;
+            height: 2px;
+            background-color: #ccc;
+            margin-top: 6px;
+        }
+    }
+    
 }

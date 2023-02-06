@@ -1,4 +1,3 @@
-import React from 'react'
 import "../scss/sections/social.scss"
 import { SocialIcon } from 'react-social-icons';
 

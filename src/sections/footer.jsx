@@ -1,4 +1,3 @@
-import React from 'react'
 import Contact from './contact';
 import Social from './social';
 import "../scss/sections/footer.scss"

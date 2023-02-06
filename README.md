@@ -4,3 +4,14 @@ This website was build with react.js.
 It's simple one-page website.
 It uses scss for styles, BEM class naming metedology
 ...
+
+Workaround for Sendgrid email package:
+```
+resolve: {
+    fallback: {
+        fs: false,
+        path: false
+    }
+}
+```
+Add it to \node_modules\react-scripts\config\webpack.config.js

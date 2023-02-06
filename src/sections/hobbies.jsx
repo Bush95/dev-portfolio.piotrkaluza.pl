@@ -1,8 +1,7 @@
-import React from 'react'
 import "../scss/sections/hobbies.scss"
 
 export default function Hobbies() {
   return (
-    <div>Hobbies</div>
+    <div className="hobbies">Hobbies</div>
   )
 }

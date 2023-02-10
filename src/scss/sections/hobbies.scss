@@ -1,4 +1,7 @@
 .hobbies {
-    height: 500px;
-    background-color: beige;
+    position: relative;
+    z-index: 1;
+    height: 1000px;
+    padding: 50px 0;
+    background: linear-gradient(#1a1a1a 5%, #4c4c4c);
 }

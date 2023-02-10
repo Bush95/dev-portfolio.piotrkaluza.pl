@@ -93,7 +93,7 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <h2>Contact</h2>
+      <h2 className="heading-underline">Contact</h2>
       <Form action={submitForm} onFieldChange={onFieldChange} fields={formFields} status={status} />
     </div>
   )

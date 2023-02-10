@@ -1,0 +1,106 @@
+{
+    "pk": {
+        "name": "piotrkaluza.pl",
+        "platform": "Wordpress",
+        "text": "My photography portfolio - a custom theme created for Wordpress. It has blog, photo grid with popups, forms & private galleries that can be shared to clients. (v2 in progress. Same functionality + shop - ReactJS)",
+        "technologies": "HTML, SCSS, JS, jQuery",
+        "images": {
+            "thumbnail": "pk-1.jpg",
+            "hover": "pk-2.jpg"
+        },
+        "links": {
+            "website": "https://piotrkaluza.pl"
+        }
+    },
+    "portfolio": {
+        "name": "dev-portfolio",
+        "platform": "ReactJS",
+        "text": "My first project built with ReactJS. It's a simple one-page website with particles, portfolio projects & contact form.",
+        "technologies": "HTML, SCSS, JS, ReactJS",
+        "images": {
+            "thumbnail": "dev-pk-1.jpg"
+        },
+        "links": {
+            "website": "https://dev-portfolio.piotrkaluza.pl",
+            "github": "https://github.com/Bush95/dev-portfolio.piotrkaluza.pl"
+        }
+    },
+    "llf": {
+        "name": "LivLifeFoods",
+        "platform": "Wordpress",
+        "text": "Wordpress theme for LivLifeFoods - A simple website built with the emphasis on visual appearance.",
+        "technologies": "PHP, HTML, SCSS, JS, jQuery",
+        "images": {
+            "thumbnail": "llf-1.jpg",
+            "hover": "llf-2.jpg"
+        },
+        "links": {
+            "website": "https://www.livlifefoods.co.uk/"
+        }
+    },
+    "shs": {
+        "name": "Stonehenge School",
+        "platform": "Wordpress",
+        "text": "Website built for school. It has blog, news, events, forms and search functionality",
+        "technologies": "PHP, HTML, SCSS, JS, jQuery",
+        "images": {
+            "thumbnail": "shs-1.jpg",
+            "hover": "shs-2.jpg"
+        },
+        "links": {
+            "website": "https://www.stonehenge.wilts.sch.uk/"
+        }
+    },
+    "icc": {
+        "name": "International Cat Care",
+        "platform": "Wordpress",
+        "text": "It's 1 out of 3 websites about cats. It has news area, donations, popups and search",
+        "technologies": "PHP, HTML, SCSS, JS, jQuery",
+        "images": {
+            "thumbnail": "icc-1.jpg",
+            "hover": "icc-2.jpg"
+        },
+        "links": {
+            "website": "https://icatcare.org/"
+        }
+    },
+    "sudio": {
+        "name": "Sudio",
+        "platform": "Magento 2",
+        "text": "Multi store e-commerce website with earbuds, built on Magento 2.",
+        "technologies": "PHP, HTML, SCSS, JS, XML, KnockoutJS, RequireJS, jQuery",
+        "images": {
+            "thumbnail": "sudio-1.jpg",
+            "hover": "sudio-2.jpg"
+        },
+        "links": {
+            "website": "https://www.sudio.com"
+        }
+    },
+    "gastonluga": {
+        "name": "GastonLuga",
+        "platform": "Magento 2",
+        "text": "Multi store e-commerce website with backpacks, built on Magento 2. It has product swatches, bundles, catalog with filters and reviews",
+        "technologies": "PHP, HTML, SCSS, JS, XML, KnockoutJS, RequireJS, jQuery",
+        "images": {
+            "thumbnail": "gl-1.jpg",
+            "hover": "gl-2.jpg"
+        },
+        "links": {
+            "website": "https://gastonluga.com"
+        }
+    },
+    "marcmirren": {
+        "name": "Marc Mirren",
+        "platform": "Magento 2",
+        "text": "Multi e-commerce website with jawellery, built on Magento 2",
+        "technologies": "PHP, HTML, SCSS, JS, XML, KnockoutJS, RequireJS, jQuery",
+        "images": {
+            "thumbnail": "mm-1.jpg",
+            "hover": "mm-2.jpg"
+        },
+        "links": {
+            "website": "https://marcmirren.com"
+        }
+    }
+}

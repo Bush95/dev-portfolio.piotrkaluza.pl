@@ -1,0 +1,115 @@
+@import '../breakpoints.scss';
+
+.project {
+    border: solid 1px #333;
+
+    &__images {
+        display: block;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            vertical-align: middle;
+            transition: transform 400ms;
+        }
+        
+        .project__image-hover {
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+    }
+
+    &.hover:hover {
+        .project__images img {
+            transform: translateY(-100%);
+        }
+    }
+
+    &__content {
+        position: relative;
+        padding: 15px;
+        border-top: solid 1px #333;
+    }
+
+    &__platform {
+        margin-top: 3px;
+        text-transform: uppercase;
+        font-size: 12px;
+        white-space: nowrap;
+
+        @include bp-lg {
+            margin-top: 1px;
+            font-size: 14px;
+        }
+
+        span {
+            opacity: 0.8;
+        }
+
+        span,
+        .platform-icon {
+            vertical-align: middle;
+        }
+
+        .platform-icon {
+            font-size: 18px;
+            margin-left: 2px;
+
+            @include bp-lg {
+                font-size: 22px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        margin: 0;
+        text-transform: initial;
+    }
+
+    &__text,
+    &__technologies {
+        width: 82%;
+        font-size: 14px;
+    }
+
+    &__text {
+        margin-bottom: 15px;
+    }
+
+    &__technologies {
+        opacity: 0.8;
+        font-weight: 300;
+    }
+
+    &__links {
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+    }
+    
+    &__link {
+        text-decoration: none;
+        color: inherit;
+        font-size: 22px;
+        margin-left: 10px;
+        transition: opacity 100ms;
+        padding: 0.2em;
+    
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+}

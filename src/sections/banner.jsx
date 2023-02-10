@@ -25,13 +25,13 @@ export default function Banner() {
     }
 
     return (
-        <div ref={bannerRef} className="banner">
+        <header ref={bannerRef} className="banner">
             <Particles className="banner__particles" id="tsparticles" options={particlesData} init={particlesInit} loaded={particlesLoaded} />
             <div className="banner__content">
                 <h1>Hello! My name is <span className="c-featured">Piotr Kałuża</span>.</h1>
                 <p>I'm a Front-End Developer</p>
                 <button onClick={scrollBtnEvent} type="button" className="banner__btn"></button>
             </div>
-        </div>
+        </header>
     )
 }

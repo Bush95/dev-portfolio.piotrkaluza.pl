@@ -1,3 +1,4 @@
+@import "../breakpoints.scss";
 $stackBg: #2c2c2c;
 
 .stack {
@@ -26,8 +27,12 @@ $stackBg: #2c2c2c;
         z-index: 3;
         background-color: #314e58;
         color: #FFF;
-        padding: 50px;
+        padding: 30px;
         box-shadow: -2px -1px 10px 0 rgba(#000, 0.2);
         transform: translateY(160px);
+
+        @include bp-lg {
+            padding: 50px;
+        }
     }
 }

@@ -30,18 +30,20 @@ function Project({data}) {
                 }
             </a>
             <div className="project__content">
-                <div className="project__header">
-                    <h3 className="project__title">{name}</h3>
+                <div>
+                    <div className="project__header">
+                        <h3 className="project__title">{name}</h3>
 
-                    {platform &&
-                        <div className="project__platform"><span>{platform}</span> {platformIcon}</div>
+                        {platform &&
+                            <div className="project__platform"><span>{platform}</span> {platformIcon}</div>
+                        }
+                    </div>
+
+                    {text &&
+                        <div className="project__text">{text}</div>
                     }
                 </div>
-
-                {text &&
-                    <div className="project__text">{text}</div>
-                }
-
+                
                 {technologies &&
                     <div className="project__technologies">{technologies}</div>
                 }

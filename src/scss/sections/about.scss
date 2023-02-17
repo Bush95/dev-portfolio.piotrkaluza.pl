@@ -4,7 +4,7 @@ $aboutBg: #2c2c2c;
 
 .about {
     position: relative;
-    padding: 50px 0;
+    padding: 50px 0 0;
     background-color: $aboutBg;
     color: #FFF;
     text-align: center;
@@ -24,9 +24,12 @@ $aboutBg: #2c2c2c;
 
         p {
             font-size: 14px;
+            text-align: left;
         }
         
         h2 {
+            margin-bottom: 50px;
+            
             @include bp-lg {
                 display: inline-block;
 
@@ -40,6 +43,11 @@ $aboutBg: #2c2c2c;
 
     &__img {
         position: relative;
+        margin-top: 50px;
+
+        @include bp-lg {
+            margin-top: 0;
+        }
 
         img {
             vertical-align: middle;

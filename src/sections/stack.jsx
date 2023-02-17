@@ -9,9 +9,8 @@ export default function Stack() {
       <Container>
         <div className="stack__container">
           <h2 className="heading-underline text-center heading-margin">Web stack</h2>
-          <p>As a Front-End developer I'm </p>
 
-          <Grid container spacing={8} alignItems="center">
+          <Grid container spacing={{ xs: 1, sm: 2, md: 3 }} alignItems="center">
             <Grid lg={6}>
               <h3>Core technologies: </h3>
               <p>HTML, CSS, JS, PHP</p>

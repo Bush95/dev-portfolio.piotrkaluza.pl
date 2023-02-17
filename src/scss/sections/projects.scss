@@ -1,9 +1,15 @@
-.projects {
+@import "../breakpoints.scss";
+
+ .projects {
     position: relative;
     z-index: 1;
-    padding: 300px 0;
+    padding: 220px 0 60px;
     background-color: #1a1a1a;
     color: #FFF;
+
+    @include bp-lg {
+        padding: 300px 0 150px;
+    }
 
     &__text {
         max-width: 510px;

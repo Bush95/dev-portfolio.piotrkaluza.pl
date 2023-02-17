@@ -1,7 +1,37 @@
-.hobbies {
+@import "../breakpoints.scss";
+
+ .hobbies {
     position: relative;
     z-index: 1;
-    height: 1000px;
-    padding: 50px 0;
+    padding: 1px 0 0 0;
+    color: #FFF;
     background: linear-gradient(#1a1a1a 5%, #4c4c4c);
+    padding: 5px 10px 200px;
+
+    @include bp-lg {
+        padding: 50px 50px 200px;
+    }
+
+    &__images {
+        position: relative;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        @include bp-lg {
+            gap: 50px;
+            flex-direction: row;
+        }
+
+        img {
+            width: 100%;
+            vertical-align: middle;
+        }
+    }
+
+    &__item {
+        display: block;
+        flex: 0 50% 50%;
+    }
 }

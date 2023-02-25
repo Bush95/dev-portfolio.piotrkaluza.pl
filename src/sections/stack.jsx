@@ -13,7 +13,7 @@ export default function Stack() {
           <Grid container spacing={{ xs: 1, sm: 2, md: 3 }} alignItems="center">
             <Grid lg={6}>
               <h3>Core technologies: </h3>
-              <p>HTML, CSS, JS, PHP</p>
+              <p>HTML, CSS, JavaScript, PHP</p>
             </Grid>
             <Grid lg={6}>
               <h3>Libraries:</h3>

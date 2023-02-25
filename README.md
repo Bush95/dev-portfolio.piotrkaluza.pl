@@ -14,4 +14,5 @@ resolve: {
     }
 }
 ```
-Add it to \node_modules\react-scripts\config\webpack.config.js
+Add it to \node_modules\react-scripts\config\webpack.config.js 
+Do not push build to repo - sendgrid api key is bundled in js file and it blocks the api key.

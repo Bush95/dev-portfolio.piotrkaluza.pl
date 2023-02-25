@@ -8,16 +8,17 @@ export default function Hobbies() {
     <section className="hobbies">
       <Container maxWidth="lg">
         <h2 className="text-center heading-underline">My hobbies</h2>
-      </Container>
 
-      <div className="hobbies__images">
-        <div className="hobbies__item">
-          <img src={pkbarista} alt="Portrait of Piotr Kałuża" />
+        <div className="hobbies__images">
+          <a href="https://piotrkaluza.pl" target="_blank" rel="noreferrer" className="hobbies__item">
+            <img src={pkphotography} alt="Portrait of Piotr Kałuża" />
+          </a>
+          <div className="amp">&amp;</div>
+          <div className="hobbies__item">
+            <img src={pkbarista} alt="Portrait of Piotr Kałuża" />
+          </div>
         </div>
-        <a href="https://piotrkaluza.pl" target="_blank" className="hobbies__item">
-          <img src={pkphotography} alt="Portrait of Piotr Kałuża" />
-        </a>
-      </div>
+      </Container>
 
     </section>
   )

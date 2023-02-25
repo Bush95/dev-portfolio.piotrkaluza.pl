@@ -15,13 +15,13 @@ export default function Contact() {
     try {
       setStatus('loading');
 
-      setTimeout(() => { 
-        setStatus('submitted');
-        console.log('sent!'); 
-      }, 5000);
+      // setTimeout(() => { 
+      //   setStatus('submitted');
+      //   console.log('sent!'); 
+      // }, 5000);
 
-      // const response = await sgMail.send(msg);
-      // console.log(response);
+      const response = await sgMail.send(msg);
+      console.log(response);
     } catch (error) {
       setStatus('error');
       console.error(error);
@@ -68,7 +68,7 @@ export default function Contact() {
     const SG_API_KEY = process.env.REACT_APP_SENDGRID_API_KEY;
     const emailReceiver = 'kontakt@piotrkaluza.pl';
     const emailSender = 'website@piotrkaluza.pl';
-    const emailSubject = 'Formularz dev-piotrkaluza.pl';
+    const emailSubject = 'Formularz webdev.piotrkaluza.pl';
     const msg = {
       to: emailReceiver,
       from: emailSender,

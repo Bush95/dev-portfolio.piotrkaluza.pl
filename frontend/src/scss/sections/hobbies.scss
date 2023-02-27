@@ -7,6 +7,7 @@
     color: #FFF;
     background: linear-gradient(#1a1a1a 5%, #4c4c4c);
     padding: 5px 10px 200px;
+    overflow: hidden;
 
     @include bp-lg {
         padding: 50px 50px 200px;

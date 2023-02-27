@@ -9,7 +9,7 @@ export default function About() {
       <Container>
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid md={6} lg={5}>
-            <div className="about__content">
+            <div className="about__content" data-aos="fade-in">
               <h2 className="heading-underline">Hi! I'm Piotr.</h2>
               <p>I'm a Front-End developer from Poland</p>
               <p>My developer jurney started at 2016. Back then I was learning by myself to get my first job as a Front-End developer.</p>
@@ -19,7 +19,7 @@ export default function About() {
             </div>
           </Grid>
           <Grid md={5} lg={6}>
-            <div className="about__img">
+            <div className="about__img" data-aos="fade-left">
               <img src={pkportrait} alt="Portrait of Piotr Kałuża" />
             </div>
           </Grid>

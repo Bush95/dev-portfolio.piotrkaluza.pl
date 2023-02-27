@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="page-footer">
         <Contact />
         <Social />
-      <p className="page-footer__copy">&copy; Piotr Kałuża {(new Date()).getFullYear()}. All rights reserved.</p>
+      <p className="page-footer__copy" data-aos="fade">&copy; Piotr Kałuża {(new Date()).getFullYear()}. All rights reserved.</p>
     </footer>
   )
 }

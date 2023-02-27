@@ -7,27 +7,29 @@ export default function Stack() {
   return (
     <section className="stack">
       <Container>
-        <div className="stack__container">
-          <h2 className="heading-underline text-center heading-margin">Web stack</h2>
+        <div data-aos="fade-up" style={{zIndex: 4, position:"relative"}}>
+          <div className="stack__container">
+            <h2 className="heading-underline text-center heading-margin">Web stack</h2>
 
-          <Grid container spacing={{ xs: 1, sm: 2, md: 3 }} alignItems="center">
-            <Grid lg={6}>
-              <h3>Core technologies: </h3>
-              <p>HTML, CSS, JavaScript, PHP</p>
+            <Grid container spacing={{ xs: 1, sm: 2, md: 3 }} alignItems="center">
+              <Grid lg={6}>
+                <h3>Core technologies: </h3>
+                <p>HTML, CSS, JavaScript, PHP</p>
+              </Grid>
+              <Grid lg={6}>
+                <h3>Libraries:</h3>
+                <p>jQuery, ReactJS (Currently learning)</p>
+              </Grid>
+              <Grid md={6}>
+                <h3>Platforms:</h3>
+                <p>Wordpress and Woocommerce, Magento 1 &amp; 2, Symfony </p>
+              </Grid>
+              <Grid md={6}>
+                <h3>Tools:</h3>
+                <p>Webpack, Gulp, Git/Bitbucket, Github, Jira, Bootstrap grid, UI kit, Adobe Photoshop, Adobe Lightroom, Adobe XD</p>
+              </Grid>
             </Grid>
-            <Grid lg={6}>
-              <h3>Libraries:</h3>
-              <p>jQuery, ReactJS (Currently learning)</p>
-            </Grid>
-            <Grid md={6}>
-              <h3>Platforms:</h3>
-              <p>Wordpress and Woocommerce, Magento 1 &amp; 2, Symfony </p>
-            </Grid>
-            <Grid md={6}>
-              <h3>Tools:</h3>
-              <p>Webpack, Gulp, Git/Bitbucket, Github, Jira, Bootstrap grid, UI kit, Adobe Photoshop, Adobe Lightroom, Adobe XD</p>
-            </Grid>
-          </Grid>
+          </div>
         </div>
       </Container>
     </section>

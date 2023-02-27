@@ -69,7 +69,7 @@ function initPhpMailer() {
     $subject = 'Contact form webdev.piotrkaluza.pl';
     $message = 'hello';
     $headers = 'From: website@piotrkaluza.pl'       . "\r\n" .
-                 'Reply-To: webmaster@example.com' . "\r\n" .
+                 'Reply-To: kontakt@piotrkaluza.pl' . "\r\n" .
                  'X-Mailer: PHP/' . phpversion();
 
     $to = 'kontakt@piotrkaluza.pl'; 

@@ -77,9 +77,11 @@ export default function Contact() {
   }
 
   return (
-    <div className="contact">
-      <h2 className="heading-underline">Contact</h2>
-      <Form action={submitForm} onFieldChange={onFieldChange} fields={formFields} status={status} />
+    <div data-aos="fade-up">
+      <div className="contact">
+        <h2 className="heading-underline">Contact</h2>
+          <Form action={submitForm} onFieldChange={onFieldChange} fields={formFields} status={status} />
+      </div>
     </div>
   )
 }

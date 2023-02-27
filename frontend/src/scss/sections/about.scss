@@ -9,6 +9,7 @@ $aboutBg: #2c2c2c;
     color: #FFF;
     text-align: center;
     z-index: 1;
+    overflow: hidden;
 
     @include bp-lg {
         text-align: left;

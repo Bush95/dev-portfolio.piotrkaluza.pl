@@ -1,0 +1,14 @@
+{
+    "name": "pkaluza/webdevpiotrkaluzapl",
+    "type": "project",
+    "require": {
+        "sendgrid/sendgrid": "~7",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "Piotr Kałuża",
+            "email": "kontakt@piotrkaluza.pl"
+        }
+    ]
+}

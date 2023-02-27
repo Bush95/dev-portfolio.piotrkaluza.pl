@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac130e68.css",
+    "main.js": "/static/js/main.0e484dd9.js",
+    "static/media/pk-hobby-photography.jpg": "/static/media/pk-hobby-photography.0d873c6e0a184a9f8b93.jpg",
+    "static/media/pk-hobby-barista.jpg": "/static/media/pk-hobby-barista.ee4eb002d37fceeb648d.jpg",
+    "static/media/pk-portrait.jpg": "/static/media/pk-portrait.d2fbd86c341aa97bc48f.jpg",
+    "index.html": "/index.html",
+    "main.ac130e68.css.map": "/static/css/main.ac130e68.css.map",
+    "main.0e484dd9.js.map": "/static/js/main.0e484dd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac130e68.css",
+    "static/js/main.0e484dd9.js"
+  ]
+}

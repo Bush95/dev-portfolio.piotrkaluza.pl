@@ -14,7 +14,7 @@ function Form({ action, onFieldChange, fields, status, submit, successmsg, error
             {status === 'error' &&
                 <p className="form__error-msg">{errormsg}</p>
             }
-            {formFields}
+            { status !== 'submitted' &&  formFields}
             <div className="form__actions">
                 {status === 'submitted' &&
                     <p class="form__success-msg">{successmsg}</p>
